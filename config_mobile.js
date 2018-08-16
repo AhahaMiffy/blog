@@ -8,58 +8,58 @@ configMobile = {
 
 /* 首先给所有元素加上过渡效果 */
 * {
-transition: all .3s;
+  transition: all .3s;
 }
 /* 白色背景太单调了，我们来点背景 */
 html {
-color: rgb(222,222,222);
-background: rgb(0,43,54);
+  color: rgb(222,222,222);
+  background: rgb(0,43,54);
 }
 /* 文字离边框太近了 */
 .styleEditor {
-padding: .5em;
-border: 1px solid;
-overflow: auto;
-width: 90vw;
-margin: 2.5vh 5vw;
-height: 90vh;
+  padding: .5em;
+  border: 1px solid;
+  overflow: auto;
+  width: 90vw;
+  margin: 2.5vh 5vw;
+  height: 90vh;
 }
 /* 太高了 */
 .styleEditor {
-height: 45vh;
+  height: 45vh;
 }
 /* 代码高亮 */
 .token.selector{
-color: rgb(133,153,0);
+  color: rgb(133,153,0);
 }
 .token.property{
-color: rgb(187,137,0);
+  color: rgb(187,137,0);
 }
 .token.punctuation{
-color: yellow;
+  color: yellow;
 }
 .token.function{
-color: rgb(42,161,152);
+  color: rgb(42,161,152);
 }
 
 /* 加点 3D 效果呗 */
 html{
-perspective: 1000px;
+  perspective: 1000px;
 }
 .styleEditor {
-position: fixed; left: 0; top: 0;
-transform: rotateX(-10deg) translateZ(-50px) ;
+  position: fixed; left: 0; top: 0;
+  transform: rotateX(-10deg) translateZ(-50px) ;
 }
 
 /* 接下来我给自己准备一个编辑器 */
 .resumeEditor{
-position: fixed;
-top: 50%; left: 0;
-padding: .5em;  margin: 2.5vh;
-width: 95vw; height: 45vh;
-border: 1px solid;
-background: white; color: #222;
-overflow: auto;
+  position: fixed;
+  top: 50%; left: 0;
+  padding: .5em;  margin: 2.5vh;
+  width: 95vw; height: 45vh;
+  border: 1px solid;
+  background: white; color: #222;
+  overflow: auto;
 }
 /* 好了，我开始了 */
 
